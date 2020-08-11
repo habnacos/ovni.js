@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><!-- Latest compiled and minified CSS -->
+
+    {{!-- RESOURCES --}}
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css"> {{!-- BOOTSTRAP --}}
+    <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css"> {{!-- BOOTSTRAP --}}
+    <link rel="stylesheet" href="/public/css/dashboard.css"> {{!-- DASHBOARD --}}
+    <link rel="stylesheet" href="/public/css/fontawesome-all.css"> {{!-- ICONS --}}
+    <script src="/public/js/jquery-3.4.1.js"></script> {{!-- JQUERY --}}
+
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    {{> header}}
+    {{> menu}}
+    <div class="container-fluid">
+        <div class="row">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+                {{{ body }}}
+            </main>
+        </div>
+    </div>
+</body>
+
+<script src="/public/js/popper.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/fontawesome-all.js"></script>
+
+</html>

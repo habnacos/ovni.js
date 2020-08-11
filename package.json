@@ -1,0 +1,22 @@
+{
+  "name": "name_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "HABNACOS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-back": "0.0.2",
+    "express-handlebars": "3.1.0",
+    "express-session": "1.16.2",
+    "mysql": "2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
